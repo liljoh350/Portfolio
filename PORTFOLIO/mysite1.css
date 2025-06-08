@@ -1,0 +1,108 @@
+body{
+    background-image: URL(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+header{
+    background: rgb(46, 39, 39);
+    padding: 20px 40px;
+    box-shadow: 0 2px 8px;
+    border-radius: 8px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: goldenrod;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+.nav-links{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+.right img{
+    width: 400px;
+    border-radius: 20px;
+    float: left;
+    box-shadow: 0 4px 20px;
+    
+
+}
+.left{
+    width: 50%;
+    margin-right: 20px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 4opx;
+   
+}
+.main-section .content .first{
+    font-size: 2em;
+}
+.main-section .content .second{
+        font-size: 3em;
+}
+.main-section .content .third{
+            font-size: 3em;
+}
+.main-section .content .second span{
+    color: rgb(107, 43, 226);
+}
+.main-section .content .fourth{
+    font-size: 1.5em;
+}    
+.menu{
+    margin-right: 10em;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+.logo span{
+    color: blueviolet;
+}
+.logo:hover{
+    text-shadow: 0 0 25px blueviolet;
+    color: blueviolet;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 4em;
+}
+.menu ul li::after{
+    content: '';
+    background-color: orange;
+    display: block;
+    height: 2px;
+    width: 0px;
+    transition: 2s ease;
+    margin: 0 auto;
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
+.btn2 a button{
+    padding: 10px 35px;
+    background-color: orangered;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
